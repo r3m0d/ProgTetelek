@@ -1,0 +1,48 @@
+using System;
+class Program
+{
+	static void Main()
+	{
+		int[] t = {9, 7, 3, 5, 4, 2, 6};
+		int n = t.Length;
+		int ker = 5; //Keresett érték
+ 
+		int i = 0;
+		while(i<n && t[i]!=ker)
+			i++;
+ 
+		if(i<n)
+			Console.WriteLine("Benne van ");
+		else
+			Console.WriteLine("Nincs benne");
+	}
+	static void eldontes()
+	{
+		//eldöntés tétele;
+		int[] t = {9, 7, 3, 5, 4, 2, 6};
+		int n = t.Length;
+		int ker = 5; //Keresett érték
+ 
+		int i = 0;
+		while(i<n && t[i]!=ker)
+			i++;
+ 
+		if(i<n)
+			Console.WriteLine("Benne van ");
+		else
+			Console.WriteLine("Nincs benne");
+	}
+	static void kivalasztas()
+	{
+		//kiválasztás tétele;
+		int[] t = {9, 7, 3, 5, 4, 2, 6};
+		int n = t.Length;
+		int ker = 5; //Keresett érték
+ 
+		int i = 0;
+		while(t[i] != ker)
+			i++;
+ 
+		Console.WriteLine("Az 5-ös indexe: {0}", i);
+	}
+}
