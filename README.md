@@ -1,0 +1,2 @@
+# ProgTetelek
+Programozás tételek
